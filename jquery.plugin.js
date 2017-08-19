@@ -1,12 +1,12 @@
-;(function($, undefined){
+;(function($, undefined) {
 
-  "use strict";
+  'use strict';
 
   $.fn.pluginname = function(options) {
 
     var defaults = {
-      opt1 : 'foo',
-      opt2 : 'bar'
+      opt1: 'foo',
+      opt2: 'bar'
     };
 
     var settings = $.extend(true, {}, defaults, options);
