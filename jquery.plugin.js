@@ -1,4 +1,4 @@
-;(function($, undefined) {
+(function($, undefined) {
 
   'use strict';
 
@@ -6,7 +6,7 @@
 
     var defaults = {
       opt1: 'foo',
-      opt2: 'bar'
+      opt2: 'bar',
     };
 
     var settings = $.extend(true, {}, defaults, options);
